@@ -1,3 +1,5 @@
+#!/usr/bin/env make -rRf
+
 ERL      	?= erl +A 4 +K true
 APP      	:= pm
 REL_APP  	:= pm
@@ -16,11 +18,17 @@ ERL_LIBS	:= apps:deps:plugins
 APPS   := $(a)
 SUITES := $(s)
 
+.SILENT: init_rel
 
 .PHONY: deps
 
 all: deps
 	@$(REBAR) compile
+
+init_rel: all
+	@$(RM) -R rel
+	@$(MKDIR) rel
+	@$(CD) rel && $(REBAR) create-node nodeid=$(APPS)
 
 rel: all
 	@$(RM) -rf rel/$(REL_APP)
