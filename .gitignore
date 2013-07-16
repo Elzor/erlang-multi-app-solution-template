@@ -2,7 +2,8 @@
 *.dump
 *.log
 *.rrd
-ebin/*
+ebin
+*.beam
 deps/*
 *.autosave
 *.log
