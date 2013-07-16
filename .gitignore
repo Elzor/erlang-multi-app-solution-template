@@ -1,0 +1,15 @@
+*~
+*.dump
+*.log
+*.rrd
+ebin/*
+deps/*
+*.autosave
+*.log
+priv/tmp/*
+priv/data
+*.sublime-project
+*.sublime-workspace
+tmp/*
+rel/pm/*
+.eunit
