@@ -3,7 +3,7 @@
 ERL      	?= erl +A 4 +K true
 APP      	:= pm
 REL_APP  	:= pm
-REBAR    	?= rebar -vvvv
+REBAR    	?= rebar
 DIALYZER 	?= dialyzer
 MKDIR 		?= mkdir
 RM    		?= rm
