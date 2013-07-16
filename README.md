@@ -5,18 +5,18 @@ Template for build multi applications solution with help of Rebar.
 Usage
 ---------------------
 -   Build solution:
-    > make
+    make
 -   Clean solution:
-    > make clean
+    make clean
 -   Create documentation:
-    > make docs
+    make docs
 -   Test solution:
-    > make test
+    make test
 -   Test one application in solution:
-    > make test a=edht
+    make test a=edht
 -   Test run one test case in application:
-    > make test a=edht s=simple_test
+    make test a=edht s=simple_test
 -   Build release:
-    > make rel
+    make rel
 -   Run release:
-    > make run
+    make run
