@@ -22,3 +22,7 @@ Usage
     `make run`
 -   Init release directory:
     `make init_rel a=app_name`
+
+CI
+---------------------
+[[https://api.travis-ci.org/Elzor/erlang-multi-app-solution-template.png]]
