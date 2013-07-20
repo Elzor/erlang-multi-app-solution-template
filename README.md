@@ -25,4 +25,4 @@ Usage
 
 CI
 ---------------------
-[[https://api.travis-ci.org/Elzor/erlang-multi-app-solution-template.png]]
+![alt tag](https://api.travis-ci.org/Elzor/erlang-multi-app-solution-template.png)
