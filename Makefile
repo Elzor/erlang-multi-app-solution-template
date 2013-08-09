@@ -35,7 +35,7 @@ rel: all
 	@$(REBAR) generate
 	@cp -fi ./sys/hooks/empty.so `find ./apps -name "*.so"` rel/$(REL_APP)/ports/
 
-deps: vsn
+deps: 
 	@$(REBAR) get-deps	
 
 clean:
